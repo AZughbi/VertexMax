@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VertexMax Consulting</title>
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -18,7 +18,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="/images/logo.png" alt="VertexMax Logo">
+                <img src="images/logo.png" alt="VertexMax Logo">
                 <div class="logo">VertexMax</div>
             </div>
             
@@ -35,14 +35,25 @@
     <section id="home" class="hero">
         <div class="carousel">
             <div class="carousel-inner">
+                <img src="images/tech-background.gif" alt="Technology">
                 <div class="carousel-slide active">
-                    <img src="/images/tech-background.jpg" alt="Technology">
+                    
+                    <div class="hero-content">
+                        <h1>Drive Operational Excellence Through Technology</h1>
+                        <p>Tailored Asset Management Solutions and Innovative Technology Strategies</p>
+                    </div>
                 </div>
                 <div class="carousel-slide">
-                    <img src="/images/business-background.jpg" alt="Business">
+                    <div class="hero-content">
+                        <h1>Digital Transformation Journey</h1>
+                        <p>Modernizing Business Systems with Cutting-Edge Solutions</p>
+                    </div>
                 </div>
                 <div class="carousel-slide">
-                    <img src="/images/innovation-background.jpg" alt="Innovation">
+                    <div class="hero-content">
+                        <h1>Enterprise Asset Management</h1>
+                        <p>IBM Maximo Implementation and Custom Integrations</p>
+                    </div>
                 </div>
             </div>
             <button class="carousel-button prev">&#10094;</button>
@@ -53,9 +64,7 @@
                 <span class="dot"></span>
             </div>
         </div>
-        <div class="hero-content">
-            <h1>Drive Operational Excellence Through Technology</h1>
-            <p>Tailored Asset Management Solutions and Innovative Technology Strategies</p>
+        <div class="hero-button-container">
             <button class="contact-btn">Get in Touch</button>
         </div>
     </section>
@@ -128,7 +137,7 @@
     </footer>
 
     <!-- Add this before closing body tag -->
-    <script type="module" src="/src/script.js"></script>
+    <script type="module" src="src/script.js"></script>
 
     <!-- Add this before the closing body tag -->
     <dialog id="contact-dialog" class="contact-dialog">
