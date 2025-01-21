@@ -11,5 +11,11 @@ export default defineConfig({
             EMAILJS_TEMPLATE_ID: JSON.stringify(process.env.EMAILJS_TEMPLATE_ID),
             EMAIL_TO: JSON.stringify(process.env.EMAIL_TO)
         }
-    }
+    },
+    build: {
+        outDir: 'dist',
+        assetsDir: 'assets',
+        emptyOutDir: true,
+    },
+    publicDir: 'public',
 }); 
